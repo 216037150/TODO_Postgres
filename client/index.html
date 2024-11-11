@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer type="module" src="./script.js"></script>
+</head>
+<body>
+    
+    <div class="app-container">
+        <h1>To-Do List</h1>
+        <div class="todo">
+            
+            <div class="input-container">
+                <form method="POST" id="taskForm">
+                    <div class="input-group">
+                        <input type="text" id="taskInput" name="description" placeholder="Add a task...">
+                        <button id="addTaskBtn" type="submit">ADD</button>
+                    </div>
+                </form>
+            </div>
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+</body>
+</html>
